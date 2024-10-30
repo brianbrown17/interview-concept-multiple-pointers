@@ -100,7 +100,6 @@ def merge(nums1: List[int], m: int, nums2: List[int], n: int):
             nums1[last] = nums2[ptr2]
             ptr2 -= 1
         last -= 1
-    print(nums1)
     return
 ```
 And here are our test cases to validate the solution:
