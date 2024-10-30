@@ -24,8 +24,8 @@ The first key to simplify this solution is to actually start from the right. Eve
 
 We can use 3 pointers:
 1. the rightmost element in nums1 (the actual values [1,3,9]) 
-2. the rightmost element in nums2 n2ptr
-3. the rightmost element of our merged array (this is actually the last element of nums1, including '0' values) last
+2. the rightmost element in nums2
+3. the rightmost element of our merged array (this is actually the last element of nums1, including '0' values)
 
 To visualize this:
 ```
